@@ -5,23 +5,23 @@ BORJA MEDINA DE LAS HERAS
 
 <h2> VISUALIZE ANCIENT IBD CONNECTIONS ON A MAP </h2>
 
-IBD Hexplorer represents the genealogical relatedness between a selecetd ancient location and the worlds ancient popualtions. Al the representations are based in the analysis of shared IBD segments information.
+IBD Hexplorer represents the genealogical relatedness between a selecetd ancient location and the worlds ancient popualtions. All the representations are based in the analysis of shared IBD segments information.
 
 Through this README file we are going to go through the IBD Hexplorer app.
 We are going to introduce all the versions and modificatiosn made throught the file history.  
-Starting with the newest (actual v0.1) versions. At teh end of the README the initial idea (oldest version of the app).
+Starting with the newest (actual v0.1) versions. At the end of the README the initial idea (oldest version of the app).
 
-<h4> IBD HEXPLORER - FINAL APP - v0.1 
+<h4> IBD HEXPLORER - FINAL APP - v0.1  
 Command to run the app:
 
 	python IBDHexplorer.py
 
-It will open an interactive window with the possible fitlers. 
-After selecting the filters wanted poress submit.
+It will open an interactive window with the possible filters.  
+After selecting the filters wanted press submit.
 
-IMPORTANT: the app uses the IBD dataset and the ADDR dataset. Both datsets are neede for the app to run.
-In case you want to try the app with a smaller dataset there is a testing dataset (IBD_testDataset). If you wantt o run the app with this dataset you have to modify the last lines of the script in which we open the files needed.
-It's important to be aware that this datset includes only IBD related with Bohemia population, and tehrefore it doesn't make sense to run the app choosing other population than Bohemia, because the result will always be a genealogical relationship with Bohemia population.
+IMPORTANT: the app uses the IBD dataset and the ADDR dataset. Both datasets are neede for the app to run.  
+In case you want to try the app with a smaller dataset there is a testing dataset (IBD_testDataset). If you want to run the app with this dataset you have to modify the last lines of the script in which we open the files needed.  
+It's important to be aware that this dataset includes only IBD segments related with Bohemia population, and therefore it doesn't make sense to run the app choosing other population than Bohemia because the result will always be a genealogical relationship with Bohemia population.
 
 <h5> Functions </h5>
 

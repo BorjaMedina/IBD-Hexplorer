@@ -247,7 +247,7 @@ def itself():
 
 
 # Open the necessary files
-with open("IBD_testDataset.tsv", "r") as DataBase:
+with open("ibd220.ibd.v54.1.pub.tsv", "r") as DataBase:
     samples=pd.read_csv(DataBase, sep= '\t')
 
 nam=pd.read_excel("AADRAnnotation.xlsx")
